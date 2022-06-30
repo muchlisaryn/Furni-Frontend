@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-import Logo from "../asset/images/logo.png"
+// import Logo from "../asset/images/logo.png"
+import Logo from 'asset/Logo'
 
 export default function Header() {
   return (
@@ -8,10 +9,11 @@ export default function Header() {
       <div className="container mx-auto py-5">
         <div className="flex flex-stretch items-center">
           <div className="w-56 items-center flex">
-            <img
+            <Logo/>
+            {/* <img
               src={Logo}
               alt="Luxspace | Fulfill your house with beautiful furniture"
-            />
+            /> */}
           </div>
           <div className="w-full"></div>
           <div className="w-auto">

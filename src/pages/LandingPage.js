@@ -5,6 +5,7 @@ import BrowseTheRoom from 'parts/HomePage/BrowseTheRoom'
 import JustArived from 'parts/HomePage/JustArrived'
 import Clients from 'parts/Clients'
 import SiteMap from 'parts/SiteMap'
+import Footer from 'parts/Footer'
 
 export default function LandingPage() {
   return (
@@ -15,6 +16,7 @@ export default function LandingPage() {
     <JustArived/>
     <Clients/>
     <SiteMap/>
+    <Footer/>
     </>
   )
 }
