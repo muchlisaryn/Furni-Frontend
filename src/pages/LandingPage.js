@@ -10,7 +10,7 @@ import Footer from 'parts/Footer'
 export default function LandingPage() {
   return (
     <>
-    <Header/>
+    <Header theme={"white"}/>
     <Hero/>
     <BrowseTheRoom/>
     <JustArived/>

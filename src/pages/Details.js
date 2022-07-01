@@ -10,7 +10,7 @@ import Footer from 'parts/Footer'
 export default function Details() {
   return (
     <>
-    <Header/>
+    <Header position="absolute"/>
     <Breadcrumb list={[
         {url : "/", name:"Home"},
         {url : "/catagories/91231", name:"Office Room"},
