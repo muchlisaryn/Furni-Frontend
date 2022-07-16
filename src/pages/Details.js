@@ -1,11 +1,10 @@
 import React from 'react'
 import Breadcrumb from 'components/Breadcrumb/Breadcrumb'
 import Header from 'parts/Header'
-// import BrowseTheRoom from 'parts/HomePage/BrowseTheRoom'
-// import JustArived from 'parts/HomePage/JustArrived'
-import Clients from 'parts/Clients'
+import ProductDetail from 'parts/Details.js/ProductDetails'
 import SiteMap from 'parts/SiteMap'
 import Footer from 'parts/Footer'
+import Suggestion from 'parts/Details.js/Suggestion'
 
 export default function Details() {
   return (
@@ -17,7 +16,8 @@ export default function Details() {
         {url : "/catagories/91231/Products/31213", name:"Details"}
         
     ]}/>
-    <Clients/>
+    <ProductDetail/>
+    <Suggestion/>
     <SiteMap/>
     <Footer/>
     </>

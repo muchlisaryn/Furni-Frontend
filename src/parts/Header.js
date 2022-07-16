@@ -69,7 +69,7 @@ export default function Header({theme, position}) {
                 <Link
                   id="header-cart"
                   className={["flex items-center justify-center w-8 h-8", theme === "white" ? " text-black md:text-white" : " text-white md:text-black"]}
-                  to="/cart.html"
+                  to="/cart"
                 >
                   <svg
                     className="fill-current"
